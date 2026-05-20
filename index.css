@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: beige;
+
+
+
+}
+.Container{
+    width:1000px;
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:azure;
+    border-radius: 10px;
+    margin-inline: auto;
+    margin-top:100px;
+    flex-direction: column;
+    
+}
+.Con{
+   width:500px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.Style{
+    width:500px;
+    height:300px;
+}
+#ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
