@@ -1,22 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div class="Container">
-    <h1>To Do List</h1>
-    <div class="Style">
-    <div class="Con">
-    <input id="taskInput" placeholder="Юу хийх вэ?">
-    <button id="nemehButton" onclick="addTask()">Нэмэх</button>
-    </div>
-    <ul id="taskList"></ul>
-    </div>
+      <div class="background">
+        <div class="Style">
+          <h1>To Do List <img src="images/todo image.jpg" alt="" /></h1>
+          <div class="Con">
+            <input id="taskInput" placeholder="Add your Text" />
+            <button id="nemehButton" onclick="addTask()">Add</button>
+          </div>
+          <ul class="listDesign" id="taskList"></ul>
+        </div>
+      </div>
     </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
